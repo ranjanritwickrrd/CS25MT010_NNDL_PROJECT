@@ -10,7 +10,7 @@
 
 \title[Image Dehazing with AOD-Net]{Image Dehazing using AOD-Net\\with Residual Learning and Skip Connections}
 \author{Ritwick Ranjan}
-\institute{Department of Computer Science \\ Your Institute Name}
+\institute{Department of Computer Science \\ IIT Dharwad}
 \date{April 2026}
 
 \begin{document}
@@ -108,17 +108,17 @@
   \begin{itemize}
     \item The skip-connection model achieved the strongest saved-checkpoint PSNR.
     \item The residual model remained stable but did not surpass the baseline under the current training budget.
-    \item The results show that lightweight architectural changes can affect restoration quality meaningfully.
+    \item Lightweight architectural changes can affect restoration quality meaningfully.
   \end{itemize}
 \end{frame}
 
 \begin{frame}{Training Curves}
-  \begin{columns}[T]
-    \column{0.5\textwidth}
-    \includegraphics[width=\linewidth]{../assets/loss_curves.png}
+  \begin{columns}[T,onlytextwidth]
+    \column{0.49\textwidth}
+    \includegraphics[width=\linewidth]{extract/img-000.png}
 
-    \column{0.5\textwidth}
-    \includegraphics[width=\linewidth]{../assets/psnr_curves.png}
+    \column{0.49\textwidth}
+    \includegraphics[width=\linewidth]{extract/img-002.png}
   \end{columns}
 
   \vspace{0.5em}
@@ -130,7 +130,7 @@
 
 \begin{frame}{Qualitative Comparison}
   \centering
-  \includegraphics[width=\linewidth]{../assets/comparison_panel.png}
+  \includegraphics[width=\linewidth]{extract/img-004.png}
 
   \vspace{0.4em}
   \begin{itemize}
@@ -147,7 +147,7 @@
   \end{itemize}
 
   \begin{block}{Workflow}
-    Upload image \(\rightarrow\) select model \(\rightarrow\) run inference \(\rightarrow\) save or inspect dehazed output
+    Upload image \(\rightarrow\) select model \(\rightarrow\) run inference \(\rightarrow\) inspect or save output
   \end{block}
 
   \begin{itemize}
@@ -179,9 +179,17 @@
   \end{itemize}
 \end{frame}
 
+\begin{frame}{Interactive Demo Result}
+  \centering
+  \includegraphics[width=0.92\linewidth,height=0.74\textheight,keepaspectratio]{extract/img-006.png}
+\end{frame}
+
 \begin{frame}
   \centering
-  \Huge Thank You
+  \vfill
+  {\Huge Thank You}\\[0.6em]
+  {\Large Questions?}
+  \vfill
 \end{frame}
 
 \end{document}
