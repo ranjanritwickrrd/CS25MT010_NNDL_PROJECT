@@ -1,0 +1,90 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch & ML
+*.pth
+*.pt
+checkpoint*.pth
+*.onnx
+
+# Data
+data/hazy/
+data/clean/
+data/reside_6k/
+data/downloads/
+
+# Output & Logs
+outputs/
+logs/
+*.log
+train_output.log
+webapp_*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter_runtime/
+.jupyter_config/
+.jupyter_data/
+.ipython/
+.mplconfig/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build & Compilation
+*.pdf.log
+*.aux
+*.nav
+*.out
+*.snm
+*.toc
+
+# Temporary
+*.tmp
+*~
+.cache/
+
+# MiKTeX
+miktex/
+
+# Executables
+*.exe
+*.dll
+
+# Credentials & Secrets
+.env
+.credentials
+kaggle.json

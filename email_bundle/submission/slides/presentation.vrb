@@ -1,0 +1,6 @@
+\frametitle{Interactive Web Application}
+\centering
+  \includegraphics[width=0.95\linewidth,height=0.82\textheight,keepaspectratio]{../assets/web_ui_interface.png}
+
+  \vspace{0.2em}
+  {\small Live Gradio-based interactive dehazing interface: upload image $\rightarrow$ select model $\rightarrow$ view dehazed output \& comparison.}
